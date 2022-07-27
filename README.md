@@ -14,3 +14,6 @@ Paso 2: `git pull origin NOMBREDERAMA` Bajar cambios de rama del repositorio
 Paso 1: `git stash` Guardar cambios en una bolsa temporal
 Paso 2: Cambiarse de rama o hacer pull
 Paso 3: `git stash apply` Regresar cambios de la bolsa temporal
+
+- Como empezar de cero:
+`git reset --hard`
