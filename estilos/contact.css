@@ -1,0 +1,67 @@
+.papa-tarjeta{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(57, 76, 99);
+}
+.hijo-tarjeta{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(99, 101, 222);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.texto-contact{
+    font-size: 40px;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.boton-you{
+    width: 80%;
+    height: 70px;
+    font-size: 20px;
+    color:white;
+    background-color: rgb(99, 101, 222);
+    border: none;
+    border-bottom: 2px solid aliceblue;
+    padding-top: 35px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+}
+.botones{
+    width: 80%;
+    height: 70px;
+    font-size: 20px;
+    color:white;
+    background-color: rgb(99, 101, 222);
+    border-color: aliceblue;
+    margin-bottom: 50px;
+    padding-left: 15px;
+}
+.caja{
+    width: 80%;
+    height: 200px;
+    font-size: 20px;
+    color:white;
+    background-color: rgb(99, 101, 222);
+    border-color: aliceblue;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-top: 15px;
+} 
+.boton-send{
+    width: 80%;
+    height: 70px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(76, 208, 233);
+    border: none;
+    border-radius: 50px;
+}
+.boton-send:hover{
+    cursor: pointer;
+}
