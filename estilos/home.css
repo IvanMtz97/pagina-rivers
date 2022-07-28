@@ -15,7 +15,7 @@
 
   .cuerpo{
     width: 100%;
-    height: 100%;
+    height: 500px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -51,6 +51,85 @@
     color: black;
     border: 1px solid black;
     background-color: white;
+  }
+
+  .padre{
+    width: 100%;
+    height: 500px;
+  }
+
+  .titulaso{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .encabezado{
+    font-size: 50px;
+    color: white;
+  }
+  
+  .tarjeta-hijo{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+  }
+
+  .tarjetas{
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+  }
+
+  .imagen-que{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid yellow;
+    margin:20px;
+  }
+
+  .papa-texto{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .parrafo{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.716);
+    width: 250px;
+  }
+
+  .nombre{
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 10px;
+  }
+
+  .puesto{
+    font-size: 15px;
+    color:rgba(255, 255, 255, 0.716);
+    margin-top: 10px;
+  }
+
+  .padre1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
   }
 
 
