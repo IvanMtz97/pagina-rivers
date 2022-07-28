@@ -1,0 +1,63 @@
+.papatarjeta{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245, 243, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.tarjeta{
+    width: 80%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+}
+.imagen{
+    width: 40%;
+    height: 90%;
+    margin-left: 25px;
+}
+.papa-textos{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo{
+    font-size: 25px;
+    color: rgb(91, 209, 215);
+    font-style: italic;
+    margin-right: 770px;
+    margin-bottom: 15px;
+}
+.platillos{
+    font-size: 45px;
+    font-weight: bold;
+    margin-right: 630px;
+    margin-bottom: 15px;
+}
+.textos{
+    width: 100%;
+    height: 50px;
+}
+.texto-creado{
+    font-weight: bold;
+}
+.usuario{
+    color: rgb(91, 209, 215);
+}
+.usuario:hover{
+    cursor: pointer;
+}
+.descripcion{
+    font-size: 15px; 
+    margin-bottom: 15px;
+}
