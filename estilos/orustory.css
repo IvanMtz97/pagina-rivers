@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(148, 148, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .parte-de-arriba{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(38, 139, 139);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .texto-the{
+    font-size: 40px;
+    color: aqua;
+    margin-top: 10px;
+  }
+
+  .texto-parrafo{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+  }
+
+  .medio{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .texto-lorem{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    width: 300px;
+    margin-top: 25px;
+  }
+
+  .final{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cuadro-imagen{
+    width: 50%;
+    height: 200px;
+    background-color: grey;
+    border-top-right-radius:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imagen-chata{
+    width: 200px;
+    height: 150px;
+  }
+
+  .cuadro-texto{
+    width: 50%;
+    height: 200px;
+    background-color: grey;
+    border-top-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .texto-titulo{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+  }
+
+  .texto-subtitulo{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+  }
