@@ -125,12 +125,71 @@
 
   .padre1{
     width: 100%;
-    height: 500px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     background-color: black;
     justify-content: space-around;
   }
 
+  .cuerpo-medio{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .texto-bourse{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 10px;
+  }
+
+  .texto-2500{
+    font-size: 25px;
+    margin-top: 13px;
+  }
+
+  .textito{
+    text-align: center;
+    width: 500px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: grey;
+  }
+
+
+  .cuerpo-final{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  .tarjetita{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .texto-brovwers{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .textitito{
+    font-size:15px;
+    text-align: center;
+    margin-top: 15px;
+  }
   
+  .imagensita{
+    width: 300px;
+    height: 200px;
+  }
